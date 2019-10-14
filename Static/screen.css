@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
 
 body {
-  background-color: #FFF;
+  background-color: #efeff2;
 
 }
 
 h1 {
-  position: sticky;
-  padding-left: 300px;
+  padding-left: 6em;
   font-family: 'Turret Road', cursive;
   color:
+}
+
+p{
+  font-family: 'Kalam', cursive;
+  font-size: 2em;
 }

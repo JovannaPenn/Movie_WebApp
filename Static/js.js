@@ -1,4 +1,4 @@
-Chart(document.getElementById("line-chart"), {
+new Chart(document.getElementById("line-chart"), {
   type: 'line',
   data: {
     labels: [1910,1920,1930,1940,1950,1960,1970,1980,1990,2000,2010],
@@ -32,8 +32,9 @@ Chart(document.getElementById("line-chart"), {
         label: "Crime",
         borderColor: "#9d009e",
         fill: false
-      }, {0.7,1.1,9.3,7.2,6.7,5.2,2.7,2.1,1.1,1.1,0.9],
-        label: "Musicals",
+      }, {
+        data: [0.7,1.1,9.3,7.2,6.7,5.2,2.7,2.1,1.1,1.1,0.9],
+        label: "Musical",
         borderColor: "#9d009e",
         fill: false
       }, {
