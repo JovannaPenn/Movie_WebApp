@@ -7,12 +7,23 @@ body {
 }
 
 h1 {
-  padding-left: 6em;
+  text-align: center;
   font-family: 'Turret Road', cursive;
-  color:
+  font-size: 3em;
+  color: #000;
 }
 
 p{
-  font-family: 'Kalam', cursive;
-  font-size: 2em;
+  font-family: 'Turret Road', cursive;
+  font-size: 1em;
+}
+
+#header {
+  background-position: top, bottom;
+  background-image: url(image.jpg);
+  padding-bottom: 20em;
+  background-size: 60em;
+  padding-top: 10px
+  background-repeat: no-repeat;
+  text-align: center;
 }
