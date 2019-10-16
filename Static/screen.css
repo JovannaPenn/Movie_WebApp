@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam&display=swap');
 
 body {
-  background-color: #efeff2;
+  background-color: #faf2ff;
 
 }
 
@@ -24,7 +24,6 @@ p{
   background-image: url(image.jpg);
   padding-bottom: 20em;
   background-size: 60em;
-  padding-top: 10px
+  padding-top: 20px
   background-repeat: no-repeat;
-  text-align: center;
 }
